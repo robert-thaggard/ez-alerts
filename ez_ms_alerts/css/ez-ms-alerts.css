@@ -1,0 +1,89 @@
+/* Admin Styling */
+.ez_ms_alerts_error{
+  border: 1px solid red !important;
+}
+
+.ez_ms_alerts_error_msg {
+    color: red;
+    font-weight: 800;
+}
+
+/* Default Alert Bar */
+.ez-alert {
+    background: #b50404;
+    border-bottom: solid 4px #9b0303;
+    padding: 0.85rem 1.9375rem 0.75rem;
+    color: #fff;
+}
+    .ez-alert h1,
+    .ez-alert h2,
+    .ez-alert h3,
+    .ez-alert h4,
+    .ez-alert p,
+    .ez-alert li {
+        color: #fff !important;
+    }
+    .ez-alert p {
+        margin: 0;
+    }
+    .ez-alert a {
+        color: #fff !important;
+        text-decoration: underline !important;
+    }
+        .ez-alert a:hover,
+        .ez-alert a:focus {
+            text-decoration: none !important;
+        }
+
+    /* Dashicons */
+    .dashicons {
+        display: inline-block;
+        font-size: 1.5rem;
+        width: auto;
+        height: auto;
+        margin: 0 0.25rem 0 0;
+        position: relative;
+        top: 1px;
+    }
+
+    /* Title */
+    .ez-alert > h2 {
+        display: inline-block;
+        margin: 0 0 0.35rem 0;
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+
+    /* Alert */
+    .ez-alert > p {
+        font-size: 0.9rem;
+    }
+
+/* Custom Alert Classes */
+
+/* Green */
+.ez-alert.green {
+    background: #03ab6e;
+    border-bottom: 4px solid #01925d;
+}
+
+/* Orange */
+.ez-alert.orange {
+    background: #c16604;
+    border-bottom: 4px solid #a85802;
+}
+
+/* Blue */
+.ez-alert.blue {
+    background: #0077BE;
+    border-bottom: solid 4px #03639B;
+}
+
+@media only screen and (min-width: 0) and (max-width: 1025px) {
+    .ez-alert {
+        padding: 0.85rem 1rem 0.75rem;
+    }
+        .ez-alert > p {
+            font-size: 0.8rem;
+        }
+}

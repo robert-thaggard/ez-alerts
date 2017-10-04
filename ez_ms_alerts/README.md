@@ -1,0 +1,1 @@
+A Wordpress plugin for site-wide alert messages.
